@@ -2,7 +2,6 @@ package brunogabriel.math
 
 import io.github.brunogabriel.math.Fibonacci
 import org.junit.jupiter.api.Assertions.assertEquals
-import org.junit.jupiter.api.BeforeAll
 import org.junit.jupiter.api.BeforeEach
 import org.junit.jupiter.api.Test
 
@@ -58,5 +57,15 @@ class FibonacciTest {
     fun shouldCalculateByRecursiveMethod() {
         // dropLast 2 because its expensive to calculate
         tests.dropLast(2).forEach { assertEquals(it.second, fibonacci.fibonacciRecursive(it.first)) }
+    }
+
+    @Test
+    fun shouldCalculateByFibonacciDynamic() {
+        tests.forEach { assertEquals(it.second, fibonacci.fibonacciDynamic(it.first)) }
+    }
+
+    @Test
+    fun shouldCalculateByFibonacciMatrix() {
+        tests.forEach { assertEquals(it.second, fibonacci.fibonacciMatrixNumber(it.first)) }
     }
 }
