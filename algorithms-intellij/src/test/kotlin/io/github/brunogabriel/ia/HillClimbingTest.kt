@@ -8,7 +8,6 @@ import org.junit.Before
 import org.junit.Test
 
 class HillClimbingTest {
-
     private lateinit var randomFunction: () -> Double
     private lateinit var maxFunction: (Double) -> Double
 
