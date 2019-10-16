@@ -47,7 +47,7 @@ fun recursiveBinarySearch(array: Array<Int>, value: Int, start: Int, end: Int): 
  * [100, 200, 300, 400, 500, 600] = 0
  */
 fun numberOfRotationsInCircularSortedArray(array: Array<Int>): Int {
-    var size = array.size - 1
+    val size = array.size - 1
     var low = 0
     var high = size
     while (low <= high) {
@@ -78,7 +78,7 @@ fun numberOfRotationsInCircularSortedArray(array: Array<Int>): Int {
  * @see numberOfRotationsInCircularSortedArray
  */
 fun findElementInCircularSortedArray(array: Array<Int>, value: Int): Int {
-    var size = array.size - 1
+    val size = array.size - 1
     var low = 0
     var high = size
     while (low <= high) {
