@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="io.github.brunogabriel.find.BinarySearchTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-10-16T01:57:35" hostname="Brunos-MacBook-Pro.local" time="0.014">
+  <properties/>
+  <testcase name="numberOfRotationsInCircularSortedArray tests" classname="io.github.brunogabriel.find.BinarySearchTest" time="0.005"/>
+  <testcase name="recursiveBinarySearch tests" classname="io.github.brunogabriel.find.BinarySearchTest" time="0.001"/>
+  <testcase name="findElementInCircularSortedArray tests" classname="io.github.brunogabriel.find.BinarySearchTest" time="0.004"/>
+  <testcase name="binarySearch tests" classname="io.github.brunogabriel.find.BinarySearchTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
