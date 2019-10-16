@@ -1,6 +1,10 @@
 package io.github.brunogabriel.ia
 
 /**
+ * Created by brunogabriel on 2019-10-15.
+ */
+
+/**
  * [numberOfIterations] the number of iterations to find optimum local
  * [randomFunction] a function that generates a number between min and max
  * e.g.: ThreadLocalRandom.current().nextDouble(0.0, 2.0)
