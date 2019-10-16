@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8721fb41-3e1a-40ed-b4a8-5d50424754b4" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/io.github.brunogabriel.find.BinarySearchTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/base-style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/js/report.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/io.github.brunogabriel.find.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-io.github.brunogabriel.find.BinarySearchTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/output.bin.idx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -26,13 +37,35 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view />
+      </state>
+    </system>
+  </component>
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt">
+        <entry file="file://$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/math/FibonacciTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+            <state relative-caret-position="291">
+              <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+              <folding>
+                <element signature="e#37#141#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/math/Fibonacci.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -40,8 +73,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/find/BinarySearchTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="750">
-              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+            <state relative-caret-position="81">
+              <caret line="40" column="28" selection-start-line="2" selection-end-line="5" />
               <folding>
                 <element signature="e#37#141#0" expanded="true" />
                 <marker date="1571191048850" expanded="true" signature="370:490" ph="..." />
@@ -55,10 +88,16 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin File" />
         <option value="Kotlin Class" />
+        <option value="Kotlin File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Fibonacci</find>
+      <find>recursiveFibonacci</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -69,6 +108,9 @@
         <option value="$PROJECT_DIR$/src/main/kotlin/find/BinarySearch.kt" />
         <option value="$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/find/BinarySearchTest.kt" />
         <option value="$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/math/Fibonnaci.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/math/Fibonacci.kt" />
+        <option value="$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/math/FibonacciTest.kt" />
       </list>
     </option>
   </component>
@@ -116,7 +158,64 @@
               <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
               <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="brunogabriel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="brunogabriel" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="brunogabriel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="brunogabriel" type="462c0819:PsiDirectoryNode" />
+              <item name="find" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="algorithms-intellij" type="b2602c69:ProjectViewProjectNode" />
+              <item name="algorithms-intellij" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="brunogabriel" type="462c0819:PsiDirectoryNode" />
+              <item name="math" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -126,6 +225,12 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -139,33 +244,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.BinarySearchTest">
+  <component name="RunManager" selected="Gradle.FibonacciTest">
     <configuration name="BinarySearchTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
         <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.find.BinarySearchTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":cleanTest" />
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
-      <method v="2" />
-    </configuration>
-    <configuration name="BinarySearchTest.binarySearch tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.find.BinarySearchTest.binarySearch tests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -200,12 +285,12 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.find.BinarySearchTest.numberOfRotationsInCircularArray tests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.math.FibonacciTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -220,12 +305,32 @@
       <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="BinarySearchTest.recursiveBinarySearch tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="FibonacciTest.fibonacci tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.find.BinarySearchTest.recursiveBinarySearch tests&quot;" />
+        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.math.FibonacciTest.fibonacci tests&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="FibonacciTest.recursiveFibonacci tests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;io.github.brunogabriel.math.FibonacciTest.recursiveFibonacci tests&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -242,11 +347,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.FibonacciTest" />
+        <item itemvalue="Gradle.FibonacciTest.recursiveFibonacci tests" />
+        <item itemvalue="Gradle.FibonacciTest.fibonacci tests" />
         <item itemvalue="Gradle.BinarySearchTest" />
         <item itemvalue="Gradle.BinarySearchTest.findElementInCircularSortedArray tests" />
-        <item itemvalue="Gradle.BinarySearchTest.numberOfRotationsInCircularArray tests" />
-        <item itemvalue="Gradle.BinarySearchTest.recursiveBinarySearch tests" />
-        <item itemvalue="Gradle.BinarySearchTest.binarySearch tests" />
       </list>
     </recent_temporary>
   </component>
@@ -264,35 +369,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 36m 31s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_fibonacci_tests - 2019.10.15 at 23h 22m 24s.xml">
+      <configuration name="FibonacciTest.fibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 36m 40s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_fibonacci_tests - 2019.10.15 at 23h 23m 04s.xml">
+      <configuration name="FibonacciTest.fibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 36m 54s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_fibonacci_tests - 2019.10.15 at 23h 23m 17s.xml">
+      <configuration name="FibonacciTest.fibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 37m 23s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest - 2019.10.15 at 23h 23m 39s.xml">
+      <configuration name="FibonacciTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 37m 37s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest - 2019.10.15 at 23h 24m 08s.xml">
+      <configuration name="FibonacciTest" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 46m 59s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_recursiveFibonacci_tests - 2019.10.15 at 23h 26m 28s.xml">
+      <configuration name="FibonacciTest.recursiveFibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_numberOfRotationsInCircularArray_tests - 2019.10.15 at 22h 47m 29s.xml">
-      <configuration name="BinarySearchTest.numberOfRotationsInCircularArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_recursiveFibonacci_tests - 2019.10.15 at 23h 27m 04s.xml">
+      <configuration name="FibonacciTest.recursiveFibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest - 2019.10.15 at 22h 47m 34s.xml">
-      <configuration name="BinarySearchTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_recursiveFibonacci_tests - 2019.10.15 at 23h 27m 43s.xml">
+      <configuration name="FibonacciTest.recursiveFibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest_findElementInCircularSortedArray_tests - 2019.10.15 at 22h 56m 33s.xml">
-      <configuration name="BinarySearchTest.findElementInCircularSortedArray tests" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_recursiveFibonacci_tests - 2019.10.15 at 23h 29m 08s.xml">
+      <configuration name="FibonacciTest.recursiveFibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
-    <history-entry file="BinarySearchTest - 2019.10.15 at 22h 57m 35s.xml">
-      <configuration name="BinarySearchTest" configurationId="GradleRunConfiguration" />
+    <history-entry file="FibonacciTest_recursiveFibonacci_tests - 2019.10.15 at 23h 29m 16s.xml">
+      <configuration name="FibonacciTest.recursiveFibonacci tests" configurationId="GradleRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -304,7 +409,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.40343347" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -335,7 +440,7 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info content_ui="combo" id="Project" order="5" weight="0.24964234" />
+      <window_info content_ui="combo" id="Project" order="5" weight="0.40343347" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
@@ -344,8 +449,8 @@
       <window_info anchor="bottom" id="Version Control" order="4" />
       <window_info anchor="bottom" id="Message" order="5" />
       <window_info anchor="bottom" id="Find" order="6" />
-      <window_info anchor="bottom" id="Run" order="7" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Debug" order="8" visible="true" weight="0.3997253" />
+      <window_info anchor="bottom" id="Run" order="7" visible="true" weight="0.32967034" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.3997253" />
       <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="11" />
@@ -389,10 +494,27 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/math/Fibonnaci.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/math/BinarySearchTest.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/find/BinarySearchTest.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        <state relative-caret-position="81">
+          <caret line="40" column="28" selection-start-line="2" selection-end-line="5" />
           <folding>
             <element signature="e#37#141#0" expanded="true" />
             <marker date="1571191048850" expanded="true" signature="370:490" ph="..." />
@@ -400,10 +522,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/find/BinarySearch.kt">
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/io/github/brunogabriel/math/Fibonacci.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
+        <state relative-caret-position="306">
+          <caret line="29" column="26" selection-start-line="29" selection-start-column="26" selection-end-line="29" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/io/github/brunogabriel/math/FibonacciTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="53" column="22" lean-forward="true" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+          <folding>
+            <element signature="e#37#141#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
