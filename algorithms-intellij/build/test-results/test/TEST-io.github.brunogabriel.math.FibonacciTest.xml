@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.github.brunogabriel.math.FibonacciTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2019-10-16T02:29:29" hostname="Brunos-MacBook-Pro.local" time="0.009">
-  <properties/>
-  <testcase name="fibonacci tests" classname="io.github.brunogabriel.math.FibonacciTest" time="0.004"/>
-  <testcase name="recursiveFibonacci tests" classname="io.github.brunogabriel.math.FibonacciTest" time="0.005"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
