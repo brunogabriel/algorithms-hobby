@@ -19,14 +19,14 @@ class EuclidesTest {
     @Test
     fun `calculateGCD tests`() {
         data.forEach {
-            assertThat(it.third, `is`(calculateGCD(it.first, it.second)))
+            assertThat(calculateGCD(it.first, it.second), `is`(it.third))
         }
     }
 
     @Test
     fun `recursiveGCD tests`() {
         data.forEach {
-            assertThat(it.third, `is`(recursiveGCD(it.first, it.second)))
+            assertThat(recursiveGCD(it.first, it.second), `is`(it.third))
         }
     }
 }

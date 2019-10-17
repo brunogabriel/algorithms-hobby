@@ -29,7 +29,7 @@ class HillClimbingTest {
         val result = hillClimbing(2L, randomFunction, maxFunction)
 
         // then
-        assertThat(3.0, `is`(result))
+        assertThat(result, `is`(3.0))
     }
 }
 

@@ -44,15 +44,15 @@ class FibonacciTest {
     @Test
     fun `fibonacci tests`() {
         fibonacciArray.forEachIndexed { index, value ->
-            assertThat(value, `is`(fibonacci(index.toLong())))
+            assertThat(fibonacci(index.toLong()), `is`(value))
         }
-        assertThat(-1, `is`(fibonacci(-1L)))
+        assertThat(fibonacci(-1L), `is`(-1L))
     }
 
     @Test
     fun `recursiveFibonacci tests`() {
         fibonacciArray.forEachIndexed { index, value ->
-            assertThat(value, `is`(recursiveFibonacci(index.toLong())))
+            assertThat(recursiveFibonacci(index.toLong()), `is`(value))
         }
     }
 }

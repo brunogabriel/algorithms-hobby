@@ -20,14 +20,14 @@ class FactorialTest {
     @Test
     fun `factorial tests`() {
         data.forEach {
-            assertThat(it.second, `is`(factorial(it.first)))
+            assertThat(factorial(it.first), `is`(it.second))
         }
     }
 
     @Test
     fun `recursiveFactorial tests`() {
         data.forEach {
-            assertThat(it.second, `is`(recursiveFactorial(it.first)))
+            assertThat(recursiveFactorial(it.first), `is`(it.second))
         }
     }
 }

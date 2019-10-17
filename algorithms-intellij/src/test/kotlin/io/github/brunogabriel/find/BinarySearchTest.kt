@@ -18,8 +18,8 @@ class BinarySearchTest {
         array.forEachIndexed { index, value ->
             assertThat(index, `is`(binarySearch(array, value)))
         }
-        assertThat(-1, `is`(binarySearch(array, -1)))
-        assertThat(-1, `is`(binarySearch(array, 100000)))
+        assertThat(binarySearch(array, -1), `is`(-1))
+        assertThat(binarySearch(array, 100000), `is`(-1))
     }
 
     @Test
@@ -31,17 +31,17 @@ class BinarySearchTest {
         array.forEachIndexed { index, value ->
             assertThat(index, `is`(recursiveBinarySearch(array, value, 0, array.size - 1)))
         }
-        assertThat(-1, `is`(recursiveBinarySearch(array, -1, 0, array.size - 1)))
-        assertThat(-1, `is`(recursiveBinarySearch(array, 100000, 0, array.size - 1)))
+        assertThat(recursiveBinarySearch(array, -1, 0, array.size - 1), `is`(-1))
+        assertThat(recursiveBinarySearch(array, 100000, 0, array.size - 1), `is`(-1))
     }
 
     @Test
     fun `numberOfRotationsInCircularSortedArray tests`() {
-        assertThat(3, `is`(numberOfRotationsInCircularSortedArray(arrayOf(7, 8, 9, 1, 2, 3))))
-        assertThat(0, `is`(numberOfRotationsInCircularSortedArray(arrayOf(1, 2, 100))))
-        assertThat(0, `is`(numberOfRotationsInCircularSortedArray(arrayOf(1))))
-        assertThat(3, `is`(numberOfRotationsInCircularSortedArray(arrayOf(8, 9, 10, 1, 3, 4, 5))))
-        assertThat(-1, `is`(numberOfRotationsInCircularSortedArray(arrayOf())))
+        assertThat(numberOfRotationsInCircularSortedArray(arrayOf(7, 8, 9, 1, 2, 3)), `is`(3))
+        assertThat(numberOfRotationsInCircularSortedArray(arrayOf(1, 2, 100)), `is`(0))
+        assertThat(numberOfRotationsInCircularSortedArray(arrayOf(1)), `is`(0))
+        assertThat(numberOfRotationsInCircularSortedArray(arrayOf(8, 9, 10, 1, 3, 4, 5)), `is`(3))
+        assertThat(numberOfRotationsInCircularSortedArray(arrayOf()), `is`(-1))
     }
 
     @Test
@@ -51,9 +51,9 @@ class BinarySearchTest {
 
         // when
         array.forEachIndexed { index, value ->
-            assertThat(index, `is`(findElementInCircularSortedArray(array, value)))
+            assertThat(findElementInCircularSortedArray(array, value), `is`(index))
         }
-        assertThat(-1, `is`(findElementInCircularSortedArray(emptyArray(), 10)))
-        assertThat(-1, `is`(findElementInCircularSortedArray(array, 10)))
+        assertThat(findElementInCircularSortedArray(emptyArray(), 10), `is`(-1))
+        assertThat(findElementInCircularSortedArray(array, 10), `is`(-1))
     }
 }
