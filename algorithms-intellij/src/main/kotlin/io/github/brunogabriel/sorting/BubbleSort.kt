@@ -3,14 +3,16 @@ package io.github.brunogabriel.sorting
 /**
  * Created by brunogabriel on 2019-10-17.
  */
-fun bubbleSort(array: Array<Int>) {
-    for (i in 0 until array.size - 1) {
-        for (j in 0 until array.size - i - 1) {
-            if (array[j] > array[j + 1]) {
-                array[j] = array[j + 1].also {
-                    array[j + 1] = array[j]
+fun bubbleSort(list: List<Int>): List<Int> {
+    val sortedList = list.toMutableList()
+    for (i in 0 until sortedList.size - 1) {
+        for (j in 0 until sortedList.size - i - 1) {
+            if (sortedList[j] > sortedList[j + 1]) {
+                sortedList[j] = sortedList[j + 1].also {
+                    sortedList[j + 1] = sortedList[j]
                 }
             }
         }
     }
+    return sortedList.toList()
 }
